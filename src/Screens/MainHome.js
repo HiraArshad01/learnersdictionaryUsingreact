@@ -11,15 +11,22 @@ export default function MainHome() {
         <h2 style={{display:'flex',color:'white'}}>LEARNERS DICTIONARY</h2>
       </div>
       <NavBar/>
-      <div style={{display:'flex', flex: 1, backgroundColor:'#dcdcdc', flexWrap: 'nowrap', overflowX: 'scroll'}}>
+      <div style={{display:'flex', flex: 1, backgroundColor:'#E3E7E5',flexDirection:'column'}}>
+        <div style={{alignSelf: 'center', justifyContent:'center'}}><h2>Words of the Day</h2></div>
+        <hr/>
+        <div style={{display:'flex', flexWrap: 'nowrap', overflowX: 'scroll', }}>
         <BasicCard/>
         <BasicCard/>
         <BasicCard/>
         <BasicCard/>
         <BasicCard/>
         <BasicCard/>
+        </div>
       </div>
       <div style={{backgroundColor:'#navy'}}>
+        <div>
+
+        </div>
 
       </div>
       <div style={{backgroundColor:'#orange'}}>
